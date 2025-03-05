@@ -1,5 +1,5 @@
-#pip install pyinstaller
-#pyinstaller --onefile --noconsole --icon=cat.ico WindowApplication.py  - создание исполнительного файла
+#pip install pyinstaller установка сборщика exe файла
+#pyinstaller --onefile --noconsole --icon=cat.ico .\WindowApplication.py - создание исполнительного файла
 #https://image.online-convert.com/ru/convert-to-ico - конвертация для иконки
 from tkinter import *
 def switch_fullscreen(event=None):
