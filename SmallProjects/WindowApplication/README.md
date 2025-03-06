@@ -50,4 +50,3 @@
 ## 6. Палитра цветов HTML.
 
     https://colorscheme.ru/html-colors.html?ysclid=m7wj8zqk3l160673666
-
