@@ -84,7 +84,7 @@ city = input("\nВведите город: ")
 # Получаем погоду
 weather = getweather(city, api_key_weather)
 if weather:
-    print(f"\nПогода в городе ``{city}``, {weather[1]}: {weather[4]}, Температура: {weather[3]:.2f}°C")
+    print(f"\nПогода в городе ``{city}``, {weather[4]}, Температура: {weather[3]:.2f}°C")
 
     # Получаем временную зону по координатам города
     lat = weather[5]  # Широта
